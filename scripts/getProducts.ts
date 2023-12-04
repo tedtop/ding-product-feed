@@ -1,5 +1,5 @@
-import dotenv from 'dotenv';
-dotenv.config();
+/* eslint-disable @typescript-eslint/no-var-requires */
+require('dotenv').config();
 
 const API_URL = process.env.API_URL || '';
 const API_KEY = process.env.API_KEY || '';
